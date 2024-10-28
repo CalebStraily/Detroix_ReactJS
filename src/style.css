@@ -1,0 +1,312 @@
+body
+{
+    background-color: #f2f3f5 !important;
+}
+
+.top-nav-bar
+{
+    background-color: #0b0b31;
+    color: #a9a9a9;
+}
+
+.top-nav-bar ul
+{
+    list-style-type: none;
+}
+
+.top-nav-bar li
+{
+    display:inline-block;
+}
+
+.top-nav-links
+{
+    text-align: right;
+}
+
+.logo-image
+{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.nav-links button
+{
+    font-size: 15px;
+    background-color: #0b0b31;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.hero-img
+{
+    padding-top: 20px;
+}
+
+.hero-image ul
+{
+    list-style-type: none;
+}
+
+.hero-image li
+{
+    display: inline;
+
+}
+
+.c-button
+{
+    background-color: #a9a9a9;
+    display: inline-block;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    color: #a9a9a9;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.description-more-buttons button
+{
+    background-color: #213349;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.company-description h1
+{
+    color: #0e1e31;
+}
+
+.smart-column
+{
+    padding-top: 20px;
+}
+
+.strong-column
+{
+    padding-top: 20px;
+}
+
+.stable-column
+{
+    padding-top: 20px;
+}
+
+.service-description
+{
+    background: radial-gradient(farthest-side at 334px -800px, #35557b 0%, #0f1821 100%);
+    margin-bottom: -110px;
+    padding-bottom: 60px;
+    color: #a9a9a9;
+}
+
+.service-description h1
+{
+    color: white;
+}
+
+.service-description-button button
+{
+    background-color: #213349;
+    color: white;
+    border-radius: 10%;
+    border: none;
+    margin-right: 5px;
+}
+
+.stable-more-button
+{
+    margin-bottom: 10px;
+}
+
+.services-column
+{
+    padding-top: 50px;
+}
+
+.services-header
+{
+    padding-bottom: 20px;
+}
+
+.services-list ul
+{
+    list-style-image: url(./images/gear.jpg);
+}
+
+.opportunities-column
+{
+    padding-top: 50px;
+}
+
+.opportunities-header
+{
+    padding-bottom: 20px;
+}
+
+.opportunities-column h3
+{
+    color: white;
+}
+
+.opportunities-list ul
+{
+    list-style-image: url(./images/bubble.jpg);
+}
+
+.news-column
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.news-header
+{
+    padding-bottom: 20px;
+}
+
+.news-column img
+{
+    border-radius: 15px;
+}
+
+.news-column h3, span
+{
+    color: white;
+}
+
+.news-list ul
+{
+    list-style-type: none;
+}
+
+.copyright-footer
+{
+    background-color: #0e1e31;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+@media (max-width: 1460px)
+{
+    .service-description h1
+    {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .service-description h1
+    {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .company-logo
+    {
+        margin-top: 20px;
+    }
+
+    .logo-image
+    {
+        justify-content: left;
+    }
+
+    .nav-links button
+    {
+        font-size: 15px;
+        padding: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .c-button
+    {
+        background-color: #a9a9a9;
+        display: inline-block;
+        width: 7%;
+        border-radius: 100%;
+        height: auto;
+        color: #a9a9a9;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .company-description
+    {
+        margin-top: 10px;
+    }
+
+    .company-description h1
+    {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .description-middle-button
+    {
+        border-left: solid rgb(170, 169, 169);
+        border-right: solid rgb(170, 169, 169);
+    }
+
+    .description-more-buttons
+    {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .strong-column
+    {
+        border-left: solid rgb(170, 169, 169);
+        border-right: solid rgb(170, 169, 169);
+        border-top: solid rgb(170, 169, 169);
+    }
+
+    .smart-column
+    {
+        border-top: solid rgb(170, 169, 169);
+    }
+
+    .stable-column
+    {
+        border-top: solid rgb(170, 169, 169);
+    }
+
+    .services-list li
+    {
+        padding-bottom: 5%;
+    }
+    
+    .opportunities-list li:first-child
+    {
+        margin-bottom: 10%;
+    }
+    
+    .news-row
+    {
+        margin-bottom: 20px;
+    }
+
+    .footer-more-buttons
+    {
+        margin-top: 40px;
+    }
+
+    .copyright-footer
+    {
+        margin-top: 0;
+    }
+}
