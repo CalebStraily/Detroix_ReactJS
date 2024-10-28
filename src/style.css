@@ -196,6 +196,11 @@ body
     margin-top: 50px;
 }
 
+.description-list
+{
+    display: flex;
+}
+
 @media (max-width: 1460px)
 {
     .service-description h1
@@ -209,6 +214,11 @@ body
     .service-description h1
     {
         font-size: 40px;
+    }
+
+    .description-list
+    {
+        display: block;
     }
 }
 
@@ -265,7 +275,6 @@ body
     .description-more-buttons
     {
         font-size: 25px;
-        padding-top: 20px;
     }
 
     .strong-column

@@ -8,6 +8,7 @@ import DescMoreButtons from './components/DescMoreButtons';
 import ServiceDesc from './components/ServiceDesc';
 import ServiceButtons from './components/ServiceButtons';
 import Footer from './components/Footer';
+//import CompanyDescList from './components/CompanyDescList';
 
 function App() 
 {

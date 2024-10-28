@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7fd0637c.css",
+    "main.js": "/static/js/main.25cf02ec.js",
+    "static/media/thinkbig.png": "/static/media/thinkbig.e2b6e16a6aeb7d5260a0.png",
+    "static/media/maze.png": "/static/media/maze.45055c51600f156e09b7.png",
+    "static/media/puzzle.png": "/static/media/puzzle.187123690169290e8a81.png",
+    "static/media/hand.png": "/static/media/hand.8ab5b376fc7772ab9728.png",
+    "static/media/logo.png": "/static/media/logo.1887a31fcb624a461ff7.png",
+    "static/media/twentyfirst.png": "/static/media/twentyfirst.e9bcd97572f836268f4c.png",
+    "static/media/ninth.png": "/static/media/ninth.62fcbac405b0879e2b1f.png",
+    "static/media/seven.png": "/static/media/seven.c6d92551fef1fd05345d.png",
+    "index.html": "/index.html",
+    "main.7fd0637c.css.map": "/static/css/main.7fd0637c.css.map",
+    "main.25cf02ec.js.map": "/static/js/main.25cf02ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fd0637c.css",
+    "static/js/main.25cf02ec.js"
+  ]
+}

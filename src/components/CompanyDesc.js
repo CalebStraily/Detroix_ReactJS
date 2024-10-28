@@ -66,6 +66,4 @@ function CompanyDesc()
     }
 }
 
-
-
 export default CompanyDesc;
