@@ -1,33 +1,33 @@
-function CompanyDescv2({ title, image, body })
+import React from 'react';
+
+function CompanyDescv2(props)
 {
     return (
-        <div className="company-description">
-            <div className="col-2 d-none d-sm-block"></div>
-            <div className="col-8">
+        <div className="col-12 col-xl-4">
+            <div className="container company-description">
                 <div className="row">
                         <div className="col-12">
-                            <h1>{title}</h1>
+                            <h1>{props.title}</h1>
                         </div>
                 </div>
                 <div className="row">
                         <div className="col-12">
-                            <img className="img-fluid" src= {image} alt="" />
+                                <img className='img-fluid' src= {props.image} alt="" />
                         </div>
                 </div>
                 <div className="row">
                         <div className="col-12">
                             <p>
-                                {body}
+                                {props.body}
                             </p>
                         </div>
                 </div>
-                <div className="row">
-                        <div className="service-description-button col-12 d-xl-none">
+                <div className="row align-items-end">
+                        <div className="service-description-button col-12">
                             <button>MORE</button>
                         </div>
-                </div>  
+                </div>
             </div>
-            <div className="col-2 d-none d-sm-block"></div>
         </div>
     )
 }
